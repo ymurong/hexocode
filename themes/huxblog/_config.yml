@@ -1,0 +1,20 @@
+
+# Code Highlight theme
+# Available value:
+#    normal | night | night yilia | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+# night yilia - https://github.com/litten/hexo-theme-yilia
+highlight_theme: normal
+
+# Math
+mathEngine: 'katex' # 'katex' or 'mathjax'
+math:
+  enable: true
+  all_pages: false
+  mathjax:
+    src: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  katex:
+    src:
+      css: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
+      js: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js
+      autorender: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js
